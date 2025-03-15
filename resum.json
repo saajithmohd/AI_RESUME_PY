@@ -1,0 +1,107 @@
+{
+  "basics": {
+    "name": "Sajith Muhammed",
+    "contact": {
+      "phone": "+917356274781",
+      "email": "sajithmuhammed95@gmail.com",
+      "location": "India",
+      "linkedin": "https://www.linkedin.com/in/sajith-muhammed-656230b8/"
+    },
+    "summary": "Java Developer with 6+ years experience building enterprise web applications across Research, E-commerce, and Telecom domains. Proven expertise in full software lifecycle development, cloud migrations, and technical leadership."
+  },
+  "employment": [
+    {
+      "company": "Polus Solutions",
+      "positions": [
+        {
+          "title": "Lead Software Engineer",
+          "start": "2023-06",
+          "end": "Present",
+          "highlights": [
+            {
+              "achievement": "Technical Design for the product",
+              "technologies": ["Java", "Spring Boot","MySQL"],
+              "metrics": {"team_size": 30}
+            },
+            {
+              "achievement": "Mentoring Junior Developers, Doing Code reviews",
+              "technologies": ["Java", "Spring Boot"],
+              "metrics": {"mentees": 5}
+            },
+            {
+              "achievement": "Led cloud migration for implement single tenant Fibi SAAS Application ",
+              "technologies": ["AWS", "Docker", "Kubernetes"],
+              "metrics": {"mentees": 5}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "technical_skills": {
+    "categories": [
+      {
+        "name": "Programming Languages",
+        "items": ["Java", "J2EE", "Spring Boot", "Hibernate"],
+        "experience": "6 years",
+        "projects": 15
+      },
+	  {
+        "name": "Database",
+        "items": ["MySQL", "Redis", "Neo4J"],
+        "experience": "6 years",
+        "projects": 15
+      },
+	  {
+        "name": "SearchEngine",
+        "items": ["ElasticSearch"],
+        "experience": "6 years",
+        "projects": 15
+      },
+	  {
+        "name": "Messsage Queue",
+        "items": ["RabbitMQ", "Kafka"],
+        "experience": "2 years",
+        "projects": 5
+      },
+      {
+        "name": "Cloud Technologies",
+        "items": ["AWS EC2", "S3", "RDS", "Lamda"],
+        "experience": "3 years",
+        "projects": 8
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "Fibi Application",
+      "duration": "2018-Present",
+      "description": "Enterprise application with 20+ modules handling research data management",
+      "role": "Lead Developer",
+      "technologies": ["Spring Boot", "Microservices", "AWS"],
+      "achievements": [
+        {
+          "description": "Product Technical Team member and Lead in Backend Development",
+          "impact": "Maintaining Project Architechture, Designing for Databases"
+        },
+		{
+          "description": "Implemented API gateway for 15+ microservices",
+          "impact": "Reduced latency by 40%"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Gurudeva Institute of Science & Technology",
+      "degree": "Bachelor of Technology in CSE",
+      "year": 2017
+    }
+  ],
+  "metrics": {
+    "total_experience": "6 years",
+    "projects_completed": 23,
+    "team_managed": 8,
+    "certifications": 6
+  }
+}
