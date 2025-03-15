@@ -24,11 +24,6 @@
               "metrics": {"team_size": 30}
             },
             {
-              "achievement": "Mentoring Junior Developers, Doing Code reviews",
-              "technologies": ["Java", "Spring Boot"],
-              "metrics": {"mentees": 5}
-            },
-            {
               "achievement": "Led cloud migration for implement single tenant Fibi SAAS Application ",
               "technologies": ["AWS", "Docker", "Kubernetes"],
               "metrics": {"mentees": 5}
@@ -40,15 +35,15 @@
   ],
   "technical_skills": {
     "categories": [
-      {
-        "name": "Programming Languages",
-        "items": ["Java", "J2EE", "Spring Boot", "Hibernate"],
+	  {
+        "name": "Database",
+        "items": ["MySQL", "Redis", "Neo4J"],
         "experience": "6 years",
         "projects": 15
       },
 	  {
-        "name": "Database",
-        "items": ["MySQL", "Redis", "Neo4J"],
+        "name": "Programming Languages",
+        "items": ["Java", "J2EE", "Spring Boot", "Hibernate"],
         "experience": "6 years",
         "projects": 15
       },
