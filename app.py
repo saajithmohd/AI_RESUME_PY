@@ -3,7 +3,7 @@ import numpy as np
 import faiss
 import streamlit as st
 from langchain.docstore.document import Document
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.embeddings import HuggingFaceEmbeddings
 
 # Initialize embeddings
