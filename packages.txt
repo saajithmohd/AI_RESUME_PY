@@ -1,3 +1,0 @@
-swig
-build-essential
-
