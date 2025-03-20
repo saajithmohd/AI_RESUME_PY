@@ -123,7 +123,7 @@ def main():
             )
 
     # Main Content Area
-    st.title("🔍 Resume Assistant")
+    st.title("🔍 My Resume Assistant ")
     st.write("Ask about my experience, skills, or projects!")
 
     query = st.text_input("Enter your question:", 
