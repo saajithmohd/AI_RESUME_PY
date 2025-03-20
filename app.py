@@ -2,12 +2,23 @@ import json
 import numpy as np
 import faiss
 import streamlit as st
+import requests
 from langchain.docstore.document import Document
 from langchain_community.vectorstores import FAISS
 from langchain.embeddings import HuggingFaceEmbeddings
 
 # Initialize embeddings
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+
+def get_visitor_ip():
+    """Fetch visitor's public IP address"""
+    try:
+        ip = requests.get("https://api64.ipify.org?format=json").json()["ip"]
+        print(f"Visitor IP: {ip}")  # Log to console
+        return ip
+    except Exception as e:
+        print(f"Error fetching IP: {e}")
+        return "Unknown"
 
 def create_documents(resume):
     """Convert resume data into searchable documents"""
@@ -64,9 +75,11 @@ def initialize_faiss(documents):
 
     return faiss_index, documents
 
-
 def main():
     st.set_page_config(page_title="Resume Assistant", page_icon="💼", layout="wide")
+
+    # Log visitor IP
+    visitor_ip = get_visitor_ip()
 
     # Mobile-first CSS for better visibility
     st.markdown("""
